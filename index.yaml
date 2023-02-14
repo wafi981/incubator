@@ -1,0 +1,1400 @@
+apiVersion: v1
+entries:
+  artifactory:
+  - apiVersion: v1
+    appVersion: 5.2.0
+    created: "2023-02-14T07:18:19.038573754Z"
+    deprecated: true
+    description: DEPRECATED Universal Repository Manager supporting all major packaging
+      formats, build tools and CI servers.
+    digest: 3c45e1c5f73f38010f211eca8ef6ed65e73101199406536e29eadd5da3924f2b
+    home: https://www.jfrog.com/artifactory/
+    keywords:
+    - artifactory
+    - jfrog
+    name: artifactory
+    sources:
+    - https://bintray.com/jfrog/product/JFrog-Artifactory-Pro/view
+    - https://github.com/JFrogDev
+    urls:
+    - https://github.com/wafi981/incubator.git/docs/artifactory-5.2.2.tgz
+    version: 5.2.2
+  aws-alb-ingress-controller:
+  - apiVersion: v1
+    appVersion: v1.1.8
+    created: "2023-02-14T07:18:19.039259673Z"
+    deprecated: true
+    description: DEPRECATED A Helm chart for AWS ALB Ingress Controller
+    digest: 9da0e2f9f6264a1d1e17377d209ac3049d3c28c31ceca199361fd407c7199879
+    home: https://github.com/kubernetes-sigs/aws-alb-ingress-controller
+    keywords:
+    - aws
+    - ingress
+    name: aws-alb-ingress-controller
+    sources:
+    - https://github.com/kubernetes-sigs/aws-alb-ingress-controller
+    urls:
+    - https://github.com/wafi981/incubator.git/docs/aws-alb-ingress-controller-1.0.4.tgz
+    version: 1.0.4
+  azuremonitor-containers:
+  - apiVersion: v1
+    appVersion: 7.0.0-1
+    created: "2023-02-14T07:18:19.040224453Z"
+    deprecated: true
+    description: DEPRECATED Helm chart for deploying Azure Monitor container monitoring
+      agent in Kubernetes
+    digest: c06fdf55b2cb6ca663e2571ba4d7464ad74b72bc08e72d81b965f10e7fc67afc
+    home: https://docs.microsoft.com/en-us/azure/monitoring/monitoring-container-health
+    icon: https://raw.githubusercontent.com/Microsoft/OMS-docker/ci_feature/img/azuremonitor-containers.svg
+    keywords:
+    - monitoring
+    - azuremonitor
+    - azure
+    - oms
+    - containerinsights
+    - metric
+    - event
+    - logs
+    - containerhealth
+    - kubernetesmonitoring
+    - acs-engine
+    - aks-engine
+    - azurestack
+    - openshift v4
+    - azure redhat openshift v4
+    - on-prem kubernetes monitoring
+    - containerlogs
+    - containerhealth
+    - containermonitoring
+    - hybrid kubernetes monitoring
+    - kubernetes
+    - kuberneteshealth
+    kubeVersion: ^1.10.0-0
+    name: azuremonitor-containers
+    sources:
+    - https://github.com/microsoft/Docker-Provider/tree/ci_prod
+    urls:
+    - https://github.com/wafi981/incubator.git/docs/azuremonitor-containers-2.7.8.tgz
+    version: 2.7.8
+  burrow:
+  - apiVersion: v1
+    appVersion: 0.17.1
+    created: "2023-02-14T07:18:19.040999045Z"
+    description: Burrow is a permissionable smart contract machine
+    digest: b73f638bae2c6fd3ed011ac8736da426f79042c2353f6dea6a0a54cabd2f4ed5
+    home: https://github.com/hyperledger/burrow
+    icon: https://pbs.twimg.com/profile_images/697035383679295488/_6vl74tM_400x400.png
+    keywords:
+    - blockchain
+    - smart_contracts
+    - smartContracts
+    - smart contracts
+    - ethereum
+    - hyperledger
+    - evm
+    maintainers:
+    - email: casey@monax.io
+      name: compleatang
+    name: burrow
+    sources:
+    - https://github.com/hyperledger/burrow
+    - https://quay.io/monax/db
+    urls:
+    - https://github.com/wafi981/incubator.git/docs/burrow-0.4.3.tgz
+    version: 0.4.3
+  buzzfeed-sso:
+  - apiVersion: v1
+    appVersion: 2.1.0
+    created: "2023-02-14T07:18:19.041801869Z"
+    deprecated: true
+    description: DEPRECATED Single sign-on for your Kubernetes services using Google
+      OAuth
+    digest: f19aded774ee1dda67127d4824c406057d139aff2b5e69b21fb6c776a4ab3f63
+    home: https://github.com/buzzfeed/sso
+    icon: https://user-images.githubusercontent.com/10510566/44476420-a64e5980-a605-11e8-8ad9-2820109deb75.png
+    keywords:
+    - sso
+    - octoboi
+    - ssoctopus
+    name: buzzfeed-sso
+    sources:
+    - https://hub.docker.com/r/buzzfeed/sso/
+    urls:
+    - https://github.com/wafi981/incubator.git/docs/buzzfeed-sso-0.2.10.tgz
+    version: 0.2.10
+  cassandra:
+  - apiVersion: v1
+    appVersion: 3.11.6
+    created: "2023-02-14T07:18:19.042954717Z"
+    deprecated: true
+    description: DEPRECATED Apache Cassandra is a free and open-source distributed
+      database management system designed to handle large amounts of data across many
+      commodity servers, providing high availability with no single point of failure.
+    digest: dd202910c6c676b95a9b3702e3c452c829857aec4cfd5fe965ea1790391b29e6
+    home: http://cassandra.apache.org
+    icon: https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Cassandra_logo.svg/330px-Cassandra_logo.svg.png
+    keywords:
+    - cassandra
+    - database
+    - nosql
+    name: cassandra
+    urls:
+    - https://github.com/wafi981/incubator.git/docs/cassandra-0.15.4.tgz
+    version: 0.15.4
+  cassandra-operator:
+  - apiVersion: v1
+    appVersion: 0.3.1-mater
+    created: "2023-02-14T07:18:19.043567092Z"
+    deprecated: true
+    description: DEPRECATED A Helm chart for CassKop - the Orange Cassandra Kubernetes
+      operator
+    digest: 638616950e23147f31b5ea4cfabd388020e103a08128d9a97fed3effe0b367ec
+    home: https://github.com/Orange-OpenSource/cassandra-k8s-operator
+    icon: https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Cassandra_logo.svg/330px-Cassandra_logo.svg.png
+    keywords:
+    - operator
+    - cassandra
+    - casskop
+    - database
+    - nosql
+    name: cassandra-operator
+    sources:
+    - https://github.com/Orange-OpenSource/cassandra-k8s-operator
+    urls:
+    - https://github.com/wafi981/incubator.git/docs/cassandra-operator-0.3.5.tgz
+    version: 0.3.5
+  cassandra-reaper:
+  - apiVersion: v1
+    appVersion: 1.3.0
+    created: "2023-02-14T07:18:19.044053065Z"
+    deprecated: true
+    description: DEPRECATED Reaper is a centralized, stateful, and highly configurable
+      tool for running Apache Cassandra repairs against single or multi-site clusters.
+    digest: 13c11e87570f02efcbe312dd7c64a8eae23bb53a34a75607872d6ad40bb4bdc6
+    home: http://cassandra-reaper.io/
+    keywords:
+    - cassandra
+    name: cassandra-reaper
+    urls:
+    - https://github.com/wafi981/incubator.git/docs/cassandra-reaper-0.2.3.tgz
+    version: 0.2.3
+  chartmuseum:
+  - apiVersion: v1
+    appVersion: 0.7.0
+    created: "2023-02-14T07:18:19.045027654Z"
+    description: Helm Chart Repository with support for Amazon S3 and Google Cloud
+      Storage
+    digest: 712eae874e3e6285feb02488b00df62e78093f459bc6c1b90f77251269857c10
+    home: https://github.com/chartmuseum/chartmuseum
+    icon: https://raw.githubusercontent.com/chartmuseum/chartmuseum/master/logo.png
+    keywords:
+    - chartmuseum
+    - helm
+    - charts repo
+    maintainers:
+    - email: opensource@codefresh.io
+      name: codefresh-io
+    - email: hello@cloudposse.com
+      name: cloudposse
+    - email: chartmuseum@gmail.com
+      name: chartmuseum
+    name: chartmuseum
+    urls:
+    - https://github.com/wafi981/incubator.git/docs/chartmuseum-1.4.0.tgz
+    version: 1.4.0
+  check-mk:
+  - apiVersion: v1
+    appVersion: 1.4.0p26
+    created: "2023-02-14T07:18:19.045522874Z"
+    deprecated: true
+    description: DEPRECATED check_mk monitoring
+    digest: 37b00a5114bbb5d6a29451d0aecd21c7e7989baac590baf397f57fa6f1960285
+    home: https://mathias-kettner.de/check_mk.html
+    icon: http://git.mathias-kettner.de/git/?p=check_mk.git;a=blob_plain;f=web/htdocs/images/logo_mk.png;h=f41c2227828b79c035fa2e2d3fba5ec939c6f2c3;hb=HEAD
+    keywords:
+    - check_mk
+    - nagios
+    - monitoring
+    name: check-mk
+    sources:
+    - https://github.com/kubernetes/charts
+    - http://git.mathias-kettner.de/git/
+    urls:
+    - https://github.com/wafi981/incubator.git/docs/check-mk-0.2.3.tgz
+    version: 0.2.3
+  cockroachdb:
+  - apiVersion: v1
+    appVersion: 0.0.1
+    created: "2023-02-14T07:18:19.04598098Z"
+    deprecated: true
+    description: DEPRECATED -- CockroachDB is a scalable, survivable, strongly-consistent
+      SQL database.
+    digest: 157388c3f1bfbe1207df83b2b5f15e677fa5dd2b4b844b945c5a7544b24b80f1
+    home: https://www.cockroachlabs.com
+    icon: https://raw.githubusercontent.com/cockroachdb/cockroach/master/docs/media/cockroach_db.png
+    name: cockroachdb
+    sources:
+    - https://github.com/cockroachdb/cockroach
+    urls:
+    - https://github.com/wafi981/incubator.git/docs/cockroachdb-0.1.2.tgz
+    version: 0.1.2
+  common:
+  - apiVersion: v1
+    appVersion: 0.0.5
+    created: "2023-02-14T07:18:19.046510318Z"
+    deprecated: true
+    description: DEPRECATED Common chartbuilding components and helpers
+    digest: ac279543e0c3db5a62763c03cc7624821c66be12e0b24fa208f2f01ea246385e
+    home: https://helm.sh
+    name: common
+    urls:
+    - https://github.com/wafi981/incubator.git/docs/common-0.0.7.tgz
+    version: 0.0.7
+  consul:
+  - apiVersion: v1
+    appVersion: 0.0.1
+    created: "2023-02-14T07:18:19.046977071Z"
+    deprecated: true
+    description: DEPRECATED - incubator/consul
+    digest: fe7581610285ab40474805cb47c1414356a14920da0e176eb1a2dbc934985f0c
+    home: https://www.consul.io
+    name: consul
+    urls:
+    - https://github.com/wafi981/incubator.git/docs/consul-0.1.5.tgz
+    version: 0.1.5
+  couchdb:
+  - apiVersion: v1
+    appVersion: 2.3.1
+    created: "2023-02-14T07:18:19.048799596Z"
+    deprecated: true
+    description: DEPRECATED see stable version of chart
+    digest: 361731228842b586fe8f14b343f75787098bc3f4b07dcd2ac5ca55349d5876c9
+    home: https://couchdb.apache.org/
+    icon: http://couchdb.apache.org/CouchDB-visual-identity/logo/CouchDB-couch-symbol.svg
+    name: couchdb
+    sources:
+    - https://github.com/apache/couchdb
+    - https://github.com/kocolosk/couchdb-statefulset-assembler
+    urls:
+    - https://github.com/wafi981/incubator.git/docs/couchdb-1.3.1.tgz
+    version: 1.3.1
+  distribution:
+  - apiVersion: v1
+    appVersion: 1.0.0
+    created: "2023-02-14T07:18:19.053365334Z"
+    dependencies:
+    - condition: mongodb.enabled
+      name: mongodb
+      repository: https://kubernetes-charts.storage.googleapis.com/
+      version: 2.0.5
+    - condition: redis.enabled
+      name: redis
+      repository: https://kubernetes-charts.storage.googleapis.com/
+      version: 1.1.21
+    deprecated: true
+    description: DEPRECATED A Helm chart for JFrog Distribution
+    digest: 57dbbca72c5149c325d55c1ea367fa3e29c1e13748a522539c8ef63e5b98e3ed
+    home: https://jfrog.com/platform/
+    keywords:
+    - distribution
+    - jfrog
+    name: distribution
+    sources:
+    - https://bintray.com/jfrog/product/distribution/view
+    - https://github.com/JFrogDev
+    urls:
+    - https://github.com/wafi981/incubator.git/docs/distribution-0.3.2.tgz
+    version: 0.3.2
+  docker-registry:
+  - apiVersion: v1
+    appVersion: 0.0.1
+    created: "2023-02-14T07:18:19.054036685Z"
+    deprecated: true
+    description: DEPRECATED - incubator/docker-registry
+    digest: bfae19f483d737e4c554c3409af4454747f15cb48a44fa1094bc561159ac8980
+    home: https://hub.docker.com/_/registry/
+    name: docker-registry
+    urls:
+    - https://github.com/wafi981/incubator.git/docs/docker-registry-0.3.1.tgz
+    version: 0.3.1
+  drone:
+  - apiVersion: v1
+    appVersion: 0.0.1
+    created: "2023-02-14T07:18:19.054604308Z"
+    deprecated: true
+    description: DEPRECATED - incubator/drone
+    digest: 6b300a3e2696a75cbe48846f91408975790837f8a674f01842d892a7e6e968be
+    home: https://drone.io/
+    name: drone
+    urls:
+    - https://github.com/wafi981/incubator.git/docs/drone-1.1.2.tgz
+    version: 1.1.2
+  druid:
+  - apiVersion: v1
+    appVersion: 0.19.0
+    created: "2023-02-14T07:18:19.060797438Z"
+    dependencies:
+    - condition: zookeeper.enabled
+      name: zookeeper
+      repository: https://charts.helm.sh/incubator
+      version: 2.1.4
+    - condition: mysql.enabled
+      name: mysql
+      repository: https://charts.helm.sh/stable
+      version: 1.6.4
+    - condition: postgresql.enabled
+      name: postgresql
+      repository: https://charts.helm.sh/stable
+      version: 8.6.4
+    deprecated: true
+    description: DEPRECATED Apache Druid is a high performance real-time analytics
+      database.
+    digest: 98586046c68999f2a111b13b924be92eb92ef194a8fd22275f51c38bd00806f3
+    home: https://druid.apache.org/
+    icon: https://druid.apache.org/img/favicon.png
+    keywords:
+    - olap
+    - database
+    - analytics
+    name: druid
+    sources:
+    - https://github.com/apache/druid
+    urls:
+    - https://github.com/wafi981/incubator.git/docs/druid-0.2.18.tgz
+    version: 0.2.18
+  elastic-stack:
+  - apiVersion: v1
+    appVersion: "6"
+    created: "2023-02-14T07:18:19.070303628Z"
+    dependencies:
+    - name: elasticsearch
+      repository: https://kubernetes-charts.storage.googleapis.com/
+      version: ^1.10.0
+    - name: kibana
+      repository: https://kubernetes-charts.storage.googleapis.com/
+      version: ^0.16.0
+    - condition: filebeat.enabled
+      name: filebeat
+      repository: https://kubernetes-charts.storage.googleapis.com/
+      version: ^1.0.0
+    - condition: logstash.enabled
+      name: logstash
+      repository: https://kubernetes-charts.storage.googleapis.com/
+      version: ^1.1.0
+    - condition: fluentd.enabled
+      name: fluentd
+      repository: https://kubernetes-charts.storage.googleapis.com/
+      version: ^1.0.0
+    - condition: fluent-bit.enabled
+      name: fluent-bit
+      repository: https://kubernetes-charts.storage.googleapis.com/
+      version: ^0.13.0
+    - condition: fluentd-elasticsearch.enabled
+      name: fluentd-elasticsearch
+      repository: https://kubernetes-charts.storage.googleapis.com/
+      version: ^1.0.0
+    - condition: nginx-ldapauth-proxy.enabled
+      name: nginx-ldapauth-proxy
+      repository: https://kubernetes-charts.storage.googleapis.com/
+      version: ^0.1.0
+    - condition: elasticsearch-curator.enabled
+      name: elasticsearch-curator
+      repository: https://kubernetes-charts.storage.googleapis.com/
+      version: ^1.0.0
+    - condition: elasticsearch-exporter.enabled
+      name: elasticsearch-exporter
+      repository: https://kubernetes-charts.storage.googleapis.com/
+      version: ^0.4.0
+    deprecated: true
+    description: A Helm chart for ELK
+    digest: de117824dab1282cb39e52babfd7c07451f0564b9015ec7efaeb4df068a8db95
+    home: https://www.elastic.co/products
+    name: elastic-stack
+    urls:
+    - https://github.com/wafi981/incubator.git/docs/elastic-stack-0.11.2.tgz
+    version: 0.11.2
+  elasticsearch:
+  - apiVersion: v1
+    appVersion: 6.4.2
+    created: "2023-02-14T07:18:19.071273785Z"
+    deprecated: true
+    description: DEPRECATED Flexible and powerful open source, distributed real-time
+      search and analytics engine.
+    digest: 604eecc7cabbd9f06b354a447f845a2c37f11a57b83a8bd1cb9b058909eb7c3b
+    home: https://www.elastic.co/products/elasticsearch
+    icon: https://static-www.elastic.co/assets/blteb1c97719574938d/logo-elastic-elasticsearch-lt.svg
+    name: elasticsearch
+    sources:
+    - https://www.elastic.co/products/elasticsearch
+    - https://github.com/jetstack/elasticsearch-pet
+    - https://github.com/giantswarm/kubernetes-elastic-stack
+    - https://github.com/GoogleCloudPlatform/elasticsearch-docker
+    - https://github.com/clockworksoul/helm-elasticsearch
+    - https://github.com/pires/kubernetes-elasticsearch-cluster
+    urls:
+    - https://github.com/wafi981/incubator.git/docs/elasticsearch-1.10.2.tgz
+    version: 1.10.2
+  elasticsearch-curator:
+  - apiVersion: v1
+    appVersion: 5.5.4
+    created: "2023-02-14T07:18:19.071723476Z"
+    deprecated: true
+    description: A Helm chart for Elasticsearch Curator
+    digest: 45c3973418fcbd7aa282d4fbbc26c34fee397cc5dd0782c2706fe099bc4cc3c6
+    home: https://github.com/elastic/curator
+    keywords:
+    - curator
+    - elasticsearch
+    - elasticsearch-curator
+    name: elasticsearch-curator
+    sources:
+    - https://github.com/kubernetes/charts/incubator/elasticsearch-curator
+    - https://github.com/pires/docker-elasticsearch-curator
+    urls:
+    - https://github.com/wafi981/incubator.git/docs/elasticsearch-curator-0.4.3.tgz
+    version: 0.4.3
+  etcd:
+  - apiVersion: v1
+    appVersion: 3.2.26
+    created: "2023-02-14T07:18:19.072247308Z"
+    deprecated: true
+    description: DEPRECATED Distributed reliable key-value store for the most critical
+      data of a distributed system.
+    digest: 0e6557d03b7af4832333a7f75d8d3ba76431f8c727a32e724ceaeaab92128aa6
+    home: https://github.com/coreos/etcd
+    icon: https://raw.githubusercontent.com/coreos/etcd/master/logos/etcd-horizontal-color.png
+    name: etcd
+    sources:
+    - https://github.com/coreos/etcd
+    urls:
+    - https://github.com/wafi981/incubator.git/docs/etcd-0.7.7.tgz
+    version: 0.7.7
+  fluentd:
+  - apiVersion: v1
+    appVersion: v2.3.1
+    created: "2023-02-14T07:18:19.072751783Z"
+    deprecated: true
+    description: A Fluentd Elasticsearch Helm chart for Kubernetes.
+    digest: 7ecf28a30b8b74b664199e424dfca8ada0c9ae2006bf4d6cce59bb3b7a2f5d33
+    home: https://www.fluentd.org/
+    icon: https://raw.githubusercontent.com/fluent/fluentd-docs/master/public/logo/Fluentd_square.png
+    name: fluentd
+    sources:
+    - https://quay.io/repository/coreos/fluentd-kubernetes
+    - https://github.com/coreos/fluentd-kubernetes-daemonset
+    - https://www.elastic.co/guide/en/elasticsearch/reference/current/index.html
+    urls:
+    - https://github.com/wafi981/incubator.git/docs/fluentd-0.2.1.tgz
+    version: 0.2.1
+  fluentd-cloudwatch:
+  - apiVersion: v1
+    appVersion: v1.7.3-debian-cloudwatch-1.0
+    created: "2023-02-14T07:18:19.073441533Z"
+    deprecated: true
+    description: DEPRECATED A Fluentd CloudWatch Helm chart for Kubernetes.
+    digest: 861026920b40c020574340d3e4a2ed078bbbb0888af80ebac2111c9aa0e54ff1
+    home: https://www.fluentd.org/
+    icon: https://raw.githubusercontent.com/fluent/fluentd-docs/master/public/logo/Fluentd_square.png
+    keywords:
+    - fluentd
+    - cloudwatch
+    - logging
+    name: fluentd-cloudwatch
+    sources:
+    - https://github.com/kubernetes/charts
+    - https://github.com/fluent/fluentd-kubernetes-daemonset
+    urls:
+    - https://github.com/wafi981/incubator.git/docs/fluentd-cloudwatch-0.13.2.tgz
+    version: 0.13.2
+  fluentd-elasticsearch:
+  - apiVersion: v1
+    appVersion: 2.3.2
+    created: "2023-02-14T07:18:19.074618994Z"
+    deprecated: true
+    description: DEPRECATED! - A Fluentd Helm chart for Kubernetes with Elasticsearch
+      output
+    digest: e3bd2d16ee3f6b6f03497b55cb15b98896e30fcef8fbea87be5c355ee1225049
+    home: https://www.fluentd.org/
+    icon: https://raw.githubusercontent.com/fluent/fluentd-docs/master/public/logo/Fluentd_square.png
+    keywords:
+    - fluentd
+    - elasticsearch
+    - multiline
+    - detect-exceptions
+    - logging
+    name: fluentd-elasticsearch
+    sources:
+    - https://github.com/kubernetes/charts/stable/fluentd-elasticsearch
+    - https://github.com/fluent/fluentd-kubernetes-daemonset
+    - https://github.com/GoogleCloudPlatform/fluent-plugin-detect-exceptions
+    - https://github.com/kubernetes/kubernetes/tree/master/cluster/addons/fluentd-elasticsearch/fluentd-es-image
+    urls:
+    - https://github.com/wafi981/incubator.git/docs/fluentd-elasticsearch-2.0.7.tgz
+    version: 2.0.7
+  gocd:
+  - apiVersion: v1
+    appVersion: 18.3.0
+    created: "2023-02-14T07:18:19.075807129Z"
+    description: GoCD is an open-source continuous delivery server to model and visualize
+      complex workflows with ease.
+    digest: 4bd84a717324847b1694d7f5d1cb2e036b81d447121d3b15681498bbb5c83d81
+    home: https://www.gocd.org/
+    icon: https://gocd.github.io/assets/images/go-icon-black-192x192.png
+    keywords:
+    - gocd
+    - ci
+    - cd
+    - ci/cd
+    - continuous-integration
+    - continuous-delivery
+    - continuous-deployment
+    - continuous-testing
+    maintainers:
+    - email: arvind@thoughtworks.com
+      name: arvindsv
+    - email: ganeshpl@thoughtworks.com
+      name: ganeshspatil
+    - email: varshasvaradarajan@gmail.com
+      name: varshavaradarajan
+    name: gocd
+    sources:
+    - https://github.com/gocd/gocd
+    urls:
+    - https://github.com/wafi981/incubator.git/docs/gocd-1.0.7.tgz
+    version: 1.0.7
+  gogs:
+  - apiVersion: v1
+    appVersion: 0.11.86
+    created: "2023-02-14T07:18:19.082142732Z"
+    dependencies:
+    - condition: postgresql.install
+      name: postgresql
+      repository: https://charts.helm.sh/stable
+      version: 8.6.4
+    deprecated: true
+    description: 'DEPRECATED Gogs: Go Git Service'
+    digest: 7c802290f960381af70dd708dbbf733afada78b0d86eb861b13ab4e86e56ae4a
+    home: https://gogs.io/
+    icon: https://gogs.io/img/favicon.ico
+    keywords:
+    - git
+    name: gogs
+    urls:
+    - https://github.com/wafi981/incubator.git/docs/gogs-0.7.14.tgz
+    version: 0.7.14
+  goldfish:
+  - apiVersion: v1
+    appVersion: 0.9.0
+    created: "2023-02-14T07:18:19.082806201Z"
+    deprecated: true
+    description: DEPRECATED A Helm chart for Goldfish - Vault UI
+    digest: bb562b2dfc5143cc3f95947bd025f3e4be38c768149032d1ffe5c290e4827b25
+    home: https://vault-ui.io
+    icon: https://github.com/Caiyeon/goldfish/blob/master/frontend/client/assets/logo@2x.png?raw=true
+    keywords:
+    - goldfish
+    - vault-ui
+    name: goldfish
+    sources:
+    - https://github.com/Caiyeon/goldfish
+    urls:
+    - https://github.com/wafi981/incubator.git/docs/goldfish-0.2.9.tgz
+    version: 0.2.9
+  grafana:
+  - apiVersion: v1
+    appVersion: 0.0.1
+    created: "2023-02-14T07:18:19.083387351Z"
+    deprecated: true
+    description: DEPRECATED - incubator/grafana
+    digest: 461c8dc0d281b0723acde2180001b2e17860dace652d5896f0da20dbf6f99308
+    home: https://grafana.net
+    name: grafana
+    urls:
+    - https://github.com/wafi981/incubator.git/docs/grafana-0.1.4.tgz
+    version: 0.1.4
+  haproxy-ingress:
+  - apiVersion: v1
+    appVersion: 0.7.2
+    created: "2023-02-14T07:18:19.08533884Z"
+    deprecated: true
+    description: DEPRECATED Ingress controller implementation for haproxy loadbalancer.
+    digest: 7015ce9979c5d5ee9ee7da45897cc082adee33bf115a7909c98df262a7075424
+    home: https://github.com/jcmoraisjr/haproxy-ingress
+    icon: http://www.haproxy.org/img/HAProxyCommunityEdition_60px.png
+    keywords:
+    - ingress
+    - haproxy
+    name: haproxy-ingress
+    sources:
+    - https://github.com/jcmoraisjr/haproxy-ingress
+    urls:
+    - https://github.com/wafi981/incubator.git/docs/haproxy-ingress-0.0.28.tgz
+    version: 0.0.28
+  honeydipper:
+  - apiVersion: v1
+    appVersion: 0.2.0
+    created: "2023-02-14T07:18:19.085942838Z"
+    deprecated: true
+    description: DEPRECATED An event driven orchestration system
+    digest: 91e638b6459f24a47fd85806a967813ac579f4ab584698522c594075496d5ea1
+    home: https://honeydipper.io
+    icon: https://raw.githubusercontent.com/honeydipper/honeydipper/master/logo/log_medium.png
+    keywords:
+    - event-driven
+    - orchestration
+    - integration
+    - workflows
+    - templating
+    name: honeydipper
+    urls:
+    - https://github.com/wafi981/incubator.git/docs/honeydipper-0.1.5.tgz
+    version: 0.1.5
+  hoverfly:
+  - apiVersion: v1
+    appVersion: 1.1.1
+    created: "2023-02-14T07:18:19.086336852Z"
+    deprecated: true
+    description: DEPRECATED Hoverfly is a lightweight, open source API simulation
+      tool. Using Hoverfly, you can create realistic simulations of the APIs your
+      application depends on.
+    digest: 064189db07d1e3c2f49cf70bcc0ec1030d5f8bdc84c60105d3ccd753cfaab42d
+    home: https://hoverfly.io
+    keywords:
+    - hoverfly
+    - api-simulation
+    - mocking
+    - stubbing
+    - service-virtualization
+    name: hoverfly
+    sources:
+    - https://github.com/SpectoLabs/hoverfly
+    urls:
+    - https://github.com/wafi981/incubator.git/docs/hoverfly-0.1.4.tgz
+    version: 0.1.4
+  istio:
+  - apiVersion: v1
+    appVersion: 0.1.6
+    created: "2023-02-14T07:18:19.08764334Z"
+    description: Istio Helm chart for Kubernetes
+    digest: 1a961b72144bdea810c67347d256d8767549d0701dcf672f92a3f0b5dcc795a3
+    home: https://istio.io/
+    icon: https://raw.githubusercontent.com/istio/istio.github.io/master/favicons/mstile-150x150.png
+    maintainers:
+    - email: lachlan.evenson@microsoft.com
+      name: lachie83
+    name: istio
+    sources:
+    - https://github.com/istio/istio
+    urls:
+    - https://github.com/wafi981/incubator.git/docs/istio-0.3.0.tgz
+    version: 0.3.0
+  jaeger:
+  - apiVersion: v1
+    appVersion: 1.15.1
+    created: "2023-02-14T07:18:19.091562554Z"
+    dependencies:
+    - condition: provisionDataStore.cassandra
+      name: cassandra
+      repository: https://kubernetes-charts-incubator.storage.googleapis.com/
+      version: ^0.13.1
+    - condition: provisionDataStore.elasticsearch
+      name: elasticsearch
+      repository: https://kubernetes-charts.storage.googleapis.com/
+      version: ^1.19.1
+    deprecated: true
+    description: A Jaeger Helm chart for Kubernetes
+    digest: e163abbee5cd39d6d2ed31543c89c0d33b34320595bb39ae4ea909aaf8b0115b
+    home: https://jaegertracing.io
+    icon: https://camo.githubusercontent.com/afa87494e0753b4b1f5719a2f35aa5263859dffb/687474703a2f2f6a61656765722e72656164746865646f63732e696f2f656e2f6c61746573742f696d616765732f6a61656765722d766563746f722e737667
+    keywords:
+    - jaeger
+    - opentracing
+    - tracing
+    - instrumentation
+    name: jaeger
+    sources:
+    - https://hub.docker.com/u/jaegertracing/
+    urls:
+    - https://github.com/wafi981/incubator.git/docs/jaeger-0.17.4.tgz
+    version: 0.17.4
+  jenkins-operator:
+  - apiVersion: v1
+    appVersion: 0.3.0
+    created: "2023-02-14T07:18:19.092050308Z"
+    deprecated: true
+    description: 'DEPRECATED: A Helm chart for Kubernetes Jenkins Operator'
+    digest: 875845bf717427894ae5f3de107f848467316b6a770d722b4af20f6e975b0a6c
+    home: https://github.com/samsung-cnct/jenkins-operator
+    icon: https://wiki.jenkins-ci.org/download/attachments/2916393/logo.png
+    keywords:
+    - jenkins
+    - testing
+    name: jenkins-operator
+    sources:
+    - https://github.com/samsung-cnct/jenkins-operator
+    - https://github.com/jenkinsci/jenkins
+    urls:
+    - https://github.com/wafi981/incubator.git/docs/jenkins-operator-0.3.1.tgz
+    version: 0.3.1
+  kafka:
+  - apiVersion: v1
+    appVersion: 5.0.1
+    created: "2023-02-14T07:18:19.094827733Z"
+    dependencies:
+    - condition: kafka.zookeeper.enabled,zookeeper.enabled
+      name: zookeeper
+      repository: https://charts.helm.sh/incubator
+      version: 2.1.0
+    deprecated: true
+    description: DEPRECATED Apache Kafka is publish-subscribe messaging rethought
+      as a distributed commit log.
+    digest: da132a881c15ba10d2282c2b8e79c1ecdd925b5177c80ce262af459205a89b3b
+    home: https://kafka.apache.org/
+    icon: https://kafka.apache.org/images/logo.png
+    keywords:
+    - kafka
+    - zookeeper
+    - kafka statefulset
+    name: kafka
+    sources:
+    - https://github.com/kubernetes/charts/tree/master/incubator/zookeeper
+    - https://github.com/Yolean/kubernetes-kafka
+    - https://github.com/confluentinc/cp-docker-images
+    - https://github.com/apache/kafka
+    urls:
+    - https://github.com/wafi981/incubator.git/docs/kafka-0.21.5.tgz
+    version: 0.21.5
+  keycloak:
+  - apiVersion: v1
+    appVersion: 3.4.3.Final
+    created: "2023-02-14T07:18:19.097147362Z"
+    dependencies:
+    - condition: keycloak.persistence.deployPostgres
+      name: postgresql
+      repository: https://kubernetes-charts.storage.googleapis.com/
+      version: 0.12.0
+    deprecated: true
+    description: Open Source Identity and Access Management For Modern Applications
+      and Services
+    digest: d0e78f9ce73a5e7967485490eec7998c30afbb82a55347726ca64f9338e05e73
+    home: http://www.keycloak.org/
+    icon: http://www.keycloak.org/resources/images/keycloak_logo_480x108.png
+    keywords:
+    - authentication
+    name: keycloak
+    sources:
+    - https://github.com/jboss-dockerfiles/keycloak
+    urls:
+    - https://github.com/wafi981/incubator.git/docs/keycloak-0.6.0.tgz
+    version: 0.6.0
+  keycloak-proxy:
+  - apiVersion: v1
+    appVersion: 3.4.2.Final
+    created: "2023-02-14T07:18:19.098582933Z"
+    deprecated: true
+    description: DEPRECATED Keycloak Proxy supports Single Sign-On with Keycloak
+    digest: e9c1fa9f6d17b6675490e901b335c4840047b7d68d899c96988cb3ab51e84570
+    home: https://www.keycloak.org/docs/3.3/server_installation/topics/proxy.html
+    icon: http://www.keycloak.org/resources/images/keycloak_logo_480x108.png
+    keywords:
+    - authentication
+    - sso
+    - reverseproxy
+    name: keycloak-proxy
+    sources:
+    - https://github.com/jboss-dockerfiles/keycloak/tree/master/proxy
+    urls:
+    - https://github.com/wafi981/incubator.git/docs/keycloak-proxy-0.0.3.tgz
+    version: 0.0.3
+  kube-downscaler:
+  - apiVersion: v1
+    appVersion: 20.5.0
+    created: "2023-02-14T07:18:19.099123543Z"
+    deprecated: true
+    description: DEPRECATED A Helm chart for kube-downscaler
+    digest: 29aa4e961aca88822bad82a0408ac193e526fb6bff5bcd08d90c51f51ae6d6ee
+    home: https://github.com/hjacobs/kube-downscaler
+    keywords:
+    - k8s pods scheduler
+    - scheduled lifecycle
+    name: kube-downscaler
+    sources:
+    - https://github.com/hjacobs/kube-downscaler
+    urls:
+    - https://github.com/wafi981/incubator.git/docs/kube-downscaler-0.6.2.tgz
+    version: 0.6.2
+  kube-janitor:
+  - apiVersion: v1
+    appVersion: v0.1.0
+    created: "2023-02-14T07:18:19.099455004Z"
+    deprecated: true
+    description: DEPRECATED A Helm chart for running kube-janitor
+    digest: 72841a3151ab3f9d5637c1086b84149708fcfd6198683f158f2055d8b18dd153
+    home: https://github.com/themagicalkarp/kube-janitor
+    name: kube-janitor
+    sources:
+    - https://github.com/themagicalkarp/kube-janitor
+    urls:
+    - https://github.com/wafi981/incubator.git/docs/kube-janitor-0.1.2.tgz
+    version: 0.1.2
+  kube-ops-view:
+  - apiVersion: v1
+    appVersion: 0.0.1
+    created: "2023-02-14T07:18:19.099870129Z"
+    deprecated: true
+    description: DEPRECATED - incubator/kube-ops-view
+    digest: 2b9ed5f160207ce4589c85436c1c0d865157c851f88f2d809f9e18951e1e681f
+    home: https://github.com/hjacobs/kube-ops-view
+    name: kube-ops-view
+    urls:
+    - https://github.com/wafi981/incubator.git/docs/kube-ops-view-0.1.1.tgz
+    version: 0.1.1
+  kube-registry-proxy:
+  - apiVersion: v1
+    appVersion: "0.4"
+    created: "2023-02-14T07:18:19.100107569Z"
+    deprecated: true
+    description: DEPRECATED Installs the kubernetes-registry-proxy cluster addon.
+    digest: f689e6f2b2fec63c7792fab15ca0beee3a65cc1a0acebe64d2abb00364dbccb3
+    home: https://github.com/kubernetes/kubernetes/tree/master/cluster/addons/registry
+    name: kube-registry-proxy
+    urls:
+    - https://github.com/wafi981/incubator.git/docs/kube-registry-proxy-0.3.4.tgz
+    version: 0.3.4
+  kube-spot-termination-notice-handler:
+  - apiVersion: v1
+    appVersion: 0.0.1
+    created: "2023-02-14T07:18:19.100515685Z"
+    deprecated: true
+    description: DEPRECATED - incubator/kube-spot-termination-notice-handler
+    digest: 92dc8d230830c0b680c1655f856e5db4ce349d78bf74dbae560586ec04d83959
+    home: https://github.com/kube-aws/kube-spot-termination-notice-handler
+    name: kube-spot-termination-notice-handler
+    urls:
+    - https://github.com/wafi981/incubator.git/docs/kube-spot-termination-notice-handler-0.4.1.tgz
+    version: 0.4.1
+  kubeless:
+  - apiVersion: v1
+    appVersion: v1.0.5
+    created: "2023-02-14T07:18:19.101795628Z"
+    deprecated: true
+    description: DEPRECATED Kubeless is a Kubernetes-native serverless framework.
+      It runs on top of your Kubernetes cluster and allows you to deploy small unit
+      of code without having to build container images.
+    digest: 368630831430a9d61ebe30b171d3c108261c1e86c7ad3db6cf8a11b964912a72
+    home: http://kubeless.io/
+    icon: https://cloud.githubusercontent.com/assets/4056725/25480209/1d5bf83c-2b48-11e7-8db8-bcd650f31297.png
+    keywords:
+    - kubeless
+    - serverless
+    - function-as-a-service
+    - faas
+    name: kubeless
+    sources:
+    - https://github.com/kubeless/kubeless
+    urls:
+    - https://github.com/wafi981/incubator.git/docs/kubeless-2.1.3.tgz
+    version: 2.1.3
+  kubernetes-vault:
+  - apiVersion: v1
+    appVersion: 0.5.2
+    created: "2023-02-14T07:18:19.102237661Z"
+    deprecated: true
+    description: DEPRECATED The Kubernetes-Vault project allows pods to automatically
+      receive a Vault token using Vaults AppRole auth backend.
+    digest: 329236089f84c9e7d3b4c65aabc556341036049883a9df349563df184553d1fe
+    home: https://github.com/Boostport/kubernetes-vault
+    name: kubernetes-vault
+    sources:
+    - https://github.com/Boostport/kubernetes-vault
+    urls:
+    - https://github.com/wafi981/incubator.git/docs/kubernetes-vault-0.2.3.tgz
+    version: 0.2.3
+  kubewatch:
+  - apiVersion: v1
+    appVersion: v0.0.3
+    created: "2023-02-14T07:18:19.102675109Z"
+    description: Kubewatch notifies your slack rooms when changes to your cluster
+      occur
+    digest: c99936b441f3d8e65f02ea9369d4650a5431b9c51abee6162fbf798ca30102e7
+    home: https://github.com/skippbox/kubewatch
+    keywords:
+    - kubernetes
+    - slack
+    maintainers:
+    - email: casey@monax.io
+      name: compleatang
+    name: kubewatch
+    sources:
+    - https://github.com/skippbox/kubewatch
+    urls:
+    - https://github.com/wafi981/incubator.git/docs/kubewatch-0.3.1.tgz
+    version: 0.3.1
+  logstash:
+  - apiVersion: v1
+    appVersion: 6.4.2
+    created: "2023-02-14T07:18:19.103764732Z"
+    deprecated: true
+    description: DEPRECATED Logstash is an open source, server-side data processing
+      pipeline
+    digest: fc0c17678649a3e4f96baa584012fb8b60a802fca523a71d41aef758e18ed1b7
+    home: https://www.elastic.co/products/logstash
+    icon: https://www.elastic.co/assets/blt86e4472872eed314/logo-elastic-logstash-lt.svg
+    name: logstash
+    sources:
+    - https://www.docker.elastic.co
+    - https://www.elastic.co/guide/en/logstash/current/index.html
+    urls:
+    - https://github.com/wafi981/incubator.git/docs/logstash-0.9.6.tgz
+    version: 0.9.6
+  mongodb:
+  - apiVersion: v1
+    appVersion: 0.0.1
+    created: "2023-02-14T07:18:19.10426845Z"
+    deprecated: true
+    description: DEPRECATED - incubator/mongodb
+    digest: f904c26d4d027d9c3d55c0fb9586e6522869f43cd40bccbdf8ddf9422750f536
+    home: https://mongodb.org
+    name: mongodb
+    urls:
+    - https://github.com/wafi981/incubator.git/docs/mongodb-0.1.2.tgz
+    version: 0.1.2
+  mongodb-replicaset:
+  - apiVersion: v1
+    appVersion: 0.0.1
+    created: "2023-02-14T07:18:19.104653275Z"
+    deprecated: true
+    description: DEPRECATED - incubator/mongodb-replicaset
+    digest: c7c5af05a2afdb02839ec70043e2b05695dda40d6d1416a4ff4cc532e7c6dbbc
+    home: https://github.com/mongodb/mongo
+    name: mongodb-replicaset
+    urls:
+    - https://github.com/wafi981/incubator.git/docs/mongodb-replicaset-0.2.1.tgz
+    version: 0.2.1
+  mysqlha:
+  - apiVersion: v1
+    appVersion: 5.7.13
+    created: "2023-02-14T07:18:19.105333201Z"
+    deprecated: true
+    description: DEPRECATED MySQL cluster with a single master and zero or more slave
+      replicas
+    digest: 4eab0b2cbe327d29d16a821f36102cc16833ef736a9ada8f88777ed9c997165d
+    home: https://www.mysql.com/
+    icon: https://www.mysql.com/common/logos/logo-mysql-170x115.png
+    keywords:
+    - mysql
+    - database
+    - sql
+    name: mysqlha
+    urls:
+    - https://github.com/wafi981/incubator.git/docs/mysqlha-2.0.2.tgz
+    version: 2.0.2
+  neo4j:
+  - apiVersion: v1
+    appVersion: 0.0.1
+    created: "2023-02-14T07:18:19.105789018Z"
+    deprecated: true
+    description: DEPRECATED - incubator/neo4j
+    digest: 053d5a854e80675aff888af1d168c9f59957cd9c0789af92847e2af262b5be0c
+    home: https://www.neo4j.com
+    name: neo4j
+    urls:
+    - https://github.com/wafi981/incubator.git/docs/neo4j-0.3.1.tgz
+    version: 0.3.1
+  oauth-proxy:
+  - apiVersion: v1
+    appVersion: 0.0.1
+    created: "2023-02-14T07:18:19.107962217Z"
+    deprecated: true
+    description: DEPRECATED - incubator/oauth-proxy
+    digest: a9d2f819c93d1e210594e236fb91865492cdb101e069a148720bd43da823a828
+    home: https://pusher.github.io/oauth2_proxy/
+    name: oauth-proxy
+    urls:
+    - https://github.com/wafi981/incubator.git/docs/oauth-proxy-0.1.9.tgz
+    version: 0.1.9
+  orientdb:
+  - apiVersion: v1
+    appVersion: 3.0.13
+    created: "2023-02-14T07:18:19.108907672Z"
+    deprecated: true
+    description: DEPRECATED A Helm chart for Distributed OrientDB
+    digest: 3e00839ee643f77561706e74f8148e863548b464a8c8117a01da4d78fffc6294
+    home: https://orientdb.com
+    icon: https://orientdb.com/wp-content/uploads/cropped-favicon-orientdb-192x192.png
+    name: orientdb
+    urls:
+    - https://github.com/wafi981/incubator.git/docs/orientdb-0.1.4.tgz
+    version: 0.1.4
+  patroni:
+  - apiVersion: v1
+    appVersion: 1.5-p5
+    created: "2023-02-14T07:18:19.113573394Z"
+    dependencies:
+    - condition: etcd.deployChart
+      name: etcd
+      repository: https://charts.helm.sh/incubator
+      version: 0.6.2
+    - condition: zookeeper.deployChart
+      name: zookeeper
+      repository: https://charts.helm.sh/incubator
+      version: 1.0.0
+    - condition: consul.deployChart
+      name: consul
+      repository: https://charts.helm.sh/stable
+      version: 3.6.1
+    deprecated: true
+    description: 'DEPRECATED Highly available elephant herd: HA PostgreSQL cluster.'
+    digest: b27b74dddcfd3cdb4c1fc9829b02268f2999e6f8467905164aa6b76136b4a70b
+    home: https://github.com/zalando/patroni
+    name: patroni
+    sources:
+    - https://github.com/zalando/patroni
+    - https://github.com/zalando/spilo
+    urls:
+    - https://github.com/wafi981/incubator.git/docs/patroni-0.16.3.tgz
+    version: 0.16.3
+  prometheus:
+  - apiVersion: v1
+    appVersion: 0.0.1
+    created: "2023-02-14T07:18:19.114087533Z"
+    deprecated: true
+    description: DEPRECATED - incubator/prometheus
+    digest: 25e57e1d512e2b2eb87413b3d03753fc48989a4fce3780fb1394e4e8c4ced3df
+    home: https://prometheus.io/
+    name: prometheus
+    urls:
+    - https://github.com/wafi981/incubator.git/docs/prometheus-0.1.5.tgz
+    version: 0.1.5
+  puppet-forge:
+  - apiVersion: v1
+    appVersion: 1.10.0
+    created: "2023-02-14T07:18:19.114819546Z"
+    deprecated: true
+    description: DEPRECATED Distribute locally developed Puppet modules and proxy
+      to the official Puppet Forge server
+    digest: 6576e8fc2b0410d734978ed1a2140e198d1c07ab8fda3f0d6bc6f5d1d44ecc37
+    home: https://github.com/unibet/puppet-forge-server
+    keywords:
+    - puppet
+    - repository
+    - forge
+    name: puppet-forge
+    urls:
+    - https://github.com/wafi981/incubator.git/docs/puppet-forge-0.1.10.tgz
+    version: 0.1.10
+  raw:
+  - apiVersion: v1
+    appVersion: 0.2.3
+    created: "2023-02-14T07:18:19.115449148Z"
+    deprecated: true
+    description: DEPRECATED A place for all the Kubernetes resources which don't already
+      have a home.
+    digest: 56b3e35a6567e0f335e703bf6802edd3e8c9b065fc8d9d58305c98c2ca81970d
+    home: https://github.com/helm/charts/blob/master/incubator/raw
+    name: raw
+    urls:
+    - https://github.com/wafi981/incubator.git/docs/raw-0.2.5.tgz
+    version: 0.2.5
+  redis-cache:
+  - apiVersion: v1
+    appVersion: 4.0.12-alpine
+    created: "2023-02-14T07:18:19.11626575Z"
+    deprecated: true
+    description: DEPRECATED A pure in-memory redis cache, using statefulset and redis-sentinel-micro
+    digest: eaa22231f25d94d34778eb98dc9364fd17f9c0b1da5a8e5c316dee3d90e25622
+    home: https://redis.io/
+    icon: https://redis.io/images/redis-white.png
+    name: redis-cache
+    sources:
+    - https://github.com/antirez/redis
+    - https://github.com/dhilipkumars/redis-sentinel-micro/tree/k8s
+    urls:
+    - https://github.com/wafi981/incubator.git/docs/redis-cache-0.5.2.tgz
+    version: 0.5.2
+  riemann:
+  - apiVersion: v1
+    appVersion: 0.2.14
+    created: "2023-02-14T07:18:19.116877444Z"
+    deprecated: true
+    description: DEPRECATED Riemann monitors distributed systems. Riemann aggregates
+      events from your servers and applications with a powerful stream processing
+      language.
+    digest: b6f180a0c5cc34dd6deec485b8e9e1c4647fda235b2fd3502e1c4a2a732806e7
+    home: http://riemann.io/
+    keywords:
+    - riemann
+    - metrics
+    - monitoring
+    name: riemann
+    sources:
+    - https://github.com/raykrueger/riemann-docker
+    urls:
+    - https://github.com/wafi981/incubator.git/docs/riemann-0.1.4.tgz
+    version: 0.1.4
+  rundeck:
+  - apiVersion: v1
+    appVersion: 3.2.7
+    created: "2023-02-14T07:18:19.118285224Z"
+    deprecated: true
+    description: DEPRECATED A Rundeck chart for Kubernetes
+    digest: a271ca55c97418ba1e294e02032ca05e1864ad820aefcd53a65946e7aeb55d7c
+    home: https://github.com/rundeck/rundeck
+    keywords:
+    - rundeck
+    - jobs
+    - automation
+    - operations
+    name: rundeck
+    sources:
+    - https://github.com/rundeck/rundeck
+    urls:
+    - https://github.com/wafi981/incubator.git/docs/rundeck-0.3.6.tgz
+    version: 0.3.6
+  schema-registry:
+  - apiVersion: v1
+    appVersion: 5.0.1
+    created: "2023-02-14T07:18:19.122562128Z"
+    dependencies:
+    - condition: kafka.enabled
+      name: kafka
+      repository: https://charts.helm.sh/incubator
+      version: 0.21.2
+    deprecated: true
+    description: DEPRECATED Schema Registry provides a serving layer for your metadata.
+      It provides a RESTful interface for storing and retrieving Avro schemas. It
+      stores a versioned history of all schemas, provides multiple compatibility settings
+      and allows evolution of schemas according to the configured compatibility setting.
+      It provides serializers that plug into Kafka clients that handle schema storage
+      and retrieval for Kafka messages that are sent in the Avro format.
+    digest: ce11f60ea1b3687b3288758c9f32965b8bf4333263510cb37c03b9d67413d503
+    home: https://docs.confluent.io/current/schema-registry/docs/index.html
+    icon: https://www.confluent.io/wp-content/themes/confluent/assets/images/confluent-logo-300.png
+    keywords:
+    - confluent
+    - kafka
+    - schema-registry
+    name: schema-registry
+    sources:
+    - https://github.com/confluentinc/schema-registry
+    - https://github.com/confluentinc/cp-docker-images
+    urls:
+    - https://github.com/wafi981/incubator.git/docs/schema-registry-1.2.3.tgz
+    version: 1.2.3
+  sentry-kubernetes:
+  - apiVersion: v1
+    appVersion: latest
+    created: "2023-02-14T07:18:19.123024205Z"
+    deprecated: true
+    description: DEPRECATED A Helm chart for sentry-kubernetes (https://github.com/getsentry/sentry-kubernetes)
+    digest: 65548a0ee32bab69be170e688c539ffc031bfa8a54ac5b3391ee9b53410571e2
+    home: https://github.com/getsentry/sentry-kubernetes
+    icon: https://sentry-brand.storage.googleapis.com/sentry-glyph-white.png
+    keywords:
+    - sentry
+    - report kubernetes events
+    name: sentry-kubernetes
+    sources:
+    - https://github.com/getsentry/sentry-kubernetes
+    urls:
+    - https://github.com/wafi981/incubator.git/docs/sentry-kubernetes-0.2.6.tgz
+    version: 0.2.6
+  solr:
+  - apiVersion: v1
+    appVersion: 8.4.0
+    created: "2023-02-14T07:18:19.125250947Z"
+    dependencies:
+    - name: zookeeper
+      repository: https://charts.helm.sh/incubator
+      version: 2.1.3
+    deprecated: true
+    description: 'DEPRECATED A helm chart to install Apache Solr: http://lucene.apache.org/solr/'
+    digest: ba18909f1972a61b472bc88c5b3eea6fa003e1a5d3d310c4d0d4bf403abf11a0
+    home: http://lucene.apache.org/solr/
+    keywords:
+    - solr
+    name: solr
+    sources:
+    - https://gitbox.apache.org/repos/asf?p=lucene-solr.git
+    urls:
+    - https://github.com/wafi981/incubator.git/docs/solr-1.5.5.tgz
+    version: 1.5.5
+  spark:
+  - apiVersion: v1
+    appVersion: 0.0.1
+    created: "2023-02-14T07:18:19.125702701Z"
+    deprecated: true
+    description: DEPRECATED - incubator/spark
+    digest: 6752b477924ff89f56c07b0c9afc026840b71e0a8c689cb9847b51e264403e9d
+    home: http://spark.apache.org
+    name: spark
+    urls:
+    - https://github.com/wafi981/incubator.git/docs/spark-0.1.2.tgz
+    version: 0.1.2
+  sparkoperator:
+  - apiVersion: v1
+    appVersion: v1beta2-1.2.0-3.0.0
+    created: "2023-02-14T07:18:19.127624102Z"
+    deprecated: true
+    description: DEPRECATED A Helm chart for Spark on Kubernetes operator
+    digest: b39333aa179c6b5d7dbccb3adcb7346efe899c88c0b6cc586367eab500b3a325
+    home: https://github.com/GoogleCloudPlatform/spark-on-k8s-operator
+    keywords:
+    - spark
+    name: sparkoperator
+    urls:
+    - https://github.com/wafi981/incubator.git/docs/sparkoperator-0.8.6.tgz
+    version: 0.8.6
+  spring-cloud-data-flow:
+  - apiVersion: v1
+    appVersion: 1.6.2.RELEASE
+    created: "2023-02-14T07:18:19.130337254Z"
+    dependencies:
+    - name: mysql
+      repository: https://kubernetes-charts.storage.googleapis.com/
+      version: 0.3.4
+    - name: redis
+      repository: https://kubernetes-charts.storage.googleapis.com/
+      version: 1.1.11
+    - name: rabbitmq
+      repository: https://kubernetes-charts.storage.googleapis.com/
+      version: 0.6.16
+    deprecated: true
+    description: DEPRECATED Toolkit for building data processing pipelines.
+    digest: 1d2c9b10852f76bf373b0a32cd5cbaeac5932da04d9b8727affbcacdcb521467
+    home: http://cloud.spring.io/spring-cloud-dataflow/
+    name: spring-cloud-data-flow
+    sources:
+    - https://github.com/spring-cloud/spring-cloud-dataflow
+    - https://github.com/spring-cloud/spring-cloud-dataflow-server-kubernetes
+    - https://github.com/spring-cloud/spring-cloud-skipper
+    - https://github.com/spring-cloud/spring-cloud-dataflow-metrics-collector
+    urls:
+    - https://github.com/wafi981/incubator.git/docs/spring-cloud-data-flow-0.2.8.tgz
+    version: 0.2.8
+  tensorflow-inception:
+  - apiVersion: v1
+    appVersion: 1.4.0
+    created: "2023-02-14T07:18:19.131129637Z"
+    deprecated: true
+    description: DEPRECATED Open source software library for numerical computation
+      using data flow graphs.
+    digest: d9e3d0cd126d6753f8cef5d09f3e82fcf3a5c5956091b83d06860c1e5c319fdd
+    home: https://github.com/kubernetes/charts
+    icon: https://camo.githubusercontent.com/ee91ac3c9f5ad840ebf70b54284498fe0e6ddb92/68747470733a2f2f7777772e74656e736f72666c6f772e6f72672f696d616765732f74665f6c6f676f5f7472616e73702e706e67
+    name: tensorflow-inception
+    sources:
+    - https://github.com/tensorflow/
+    - https://tensorflow.github.io/serving/serving_inception.html
+    urls:
+    - https://github.com/wafi981/incubator.git/docs/tensorflow-inception-0.4.3.tgz
+    version: 0.4.3
+  vault:
+  - apiVersion: v1
+    appVersion: 1.5.4
+    created: "2023-02-14T07:18:19.132229203Z"
+    deprecated: true
+    description: DEPRECATED A Helm chart for Vault, a tool for managing secrets
+    digest: 386eda90687acffef8f978195253f4347b97ab875ce474a9748d777134814039
+    home: https://www.vaultproject.io/
+    icon: https://www.vaultproject.io/assets/images/mega-nav/logo-vault-0f83e3d2.svg
+    name: vault
+    sources:
+    - https://github.com/hashicorp/vault
+    - https://github.com/hashicorp/docker-vault
+    urls:
+    - https://github.com/wafi981/incubator.git/docs/vault-0.23.9.tgz
+    version: 0.23.9
+  vaultingkube:
+  - apiVersion: v1
+    appVersion: 0.1.1
+    created: "2023-02-14T07:18:19.132603832Z"
+    deprecated: true
+    description: DEPRECATED vaultingkube takes config maps and secrets stored inside
+      Hashicorp Vault and syncs them to your Kubernetes cluster.
+    digest: eb8293c7611499eb92ce8a8cd0328075c4aa8022c2c58681feea271b647114f6
+    home: https://github.com/sunshinekitty/vaultingkube
+    name: vaultingkube
+    urls:
+    - https://github.com/wafi981/incubator.git/docs/vaultingkube-0.1.4.tgz
+    version: 0.1.4
+  webpagetest-agent:
+  - apiVersion: v1
+    appVersion: "2018-01-23"
+    created: "2023-02-14T07:18:19.13292271Z"
+    deprecated: true
+    description: DEPRECATED A Helm chart for Kubernetes
+    digest: 4ee79aab1feba094e9af6ebbc8d804e610049a863cd4f788247ad64c531c03d0
+    home: https://www.webpagetest.org/
+    icon: https://www.webpagetest.org/images/logo_wpt.png
+    name: webpagetest-agent
+    sources:
+    - https://github.com/WPO-Foundation/webpagetest
+    urls:
+    - https://github.com/wafi981/incubator.git/docs/webpagetest-agent-0.2.2.tgz
+    version: 0.2.2
+  webpagetest-server:
+  - apiVersion: v1
+    appVersion: "2018-03-08"
+    created: "2023-02-14T07:18:19.133464866Z"
+    deprecated: true
+    description: DEPRECATED A Helm chart for Kubernetes
+    digest: e4437fe1bb7a714fb7ef469bb887e5b0eec0d0b2d69e71db4157eb8ff40bcd6f
+    home: https://www.webpagetest.org/
+    icon: https://www.webpagetest.org/images/logo_wpt.png
+    name: webpagetest-server
+    sources:
+    - https://github.com/WPO-Foundation/webpagetest
+    urls:
+    - https://github.com/wafi981/incubator.git/docs/webpagetest-server-0.2.3.tgz
+    version: 0.2.3
+  xray:
+  - apiVersion: v1
+    appVersion: 2.1.0
+    created: "2023-02-14T07:18:19.136352418Z"
+    dependencies:
+    - condition: postgresql.enabled
+      name: postgresql
+      repository: https://kubernetes-charts.storage.googleapis.com/
+      version: 0.8.7
+    - name: rabbitmq-ha
+      repository: https://kubernetes-charts.storage.googleapis.com/
+      version: 1.5.2
+    - condition: mongodb.enabled
+      name: mongodb
+      repository: https://kubernetes-charts.storage.googleapis.com/
+      version: 2.0.5
+    deprecated: true
+    description: DEPRECATED Universal component scan for security and license inventory
+      and impact analysis
+    digest: e04865e25b9a71c1c338af81c33f4c4da85244452c752fdbdf0add8d82e0dfbb
+    home: https://www.jfrog.com/xray/
+    keywords:
+    - xray
+    - jfrog
+    name: xray
+    sources:
+    - https://bintray.com/jfrog/product/xray/view
+    - https://github.com/JFrogDev
+    urls:
+    - https://github.com/wafi981/incubator.git/docs/xray-0.3.3.tgz
+    version: 0.3.3
+  zookeeper:
+  - apiVersion: v1
+    appVersion: 3.5.5
+    created: "2023-02-14T07:18:19.137814611Z"
+    deprecated: true
+    description: DEPRECATED Centralized service for maintaining configuration information,
+      naming, providing distributed synchronization, and providing group services.
+    digest: 0e4ca3803609bb424e8496c89b423317c6a4872c2f451ec66ccb5d9ecf8f5597
+    home: https://zookeeper.apache.org/
+    icon: https://zookeeper.apache.org/images/zookeeper_small.gif
+    kubeVersion: ^1.10.0-0
+    name: zookeeper
+    sources:
+    - https://github.com/apache/zookeeper
+    - https://github.com/kubernetes/contrib/tree/master/statefulsets/zookeeper
+    urls:
+    - https://github.com/wafi981/incubator.git/docs/zookeeper-2.1.6.tgz
+    version: 2.1.6
+generated: "2023-02-14T07:18:19.037900779Z"
